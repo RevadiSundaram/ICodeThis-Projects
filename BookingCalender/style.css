@@ -1,0 +1,25 @@
+/* Add CSS here */
+
+.container{
+   overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 20vh;
+  
+    background-color: navy;
+    color: white;
+
+}
+.bodypump{
+    border: 1px solid black;
+    margin: 10px 10px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.bodypump button{
+   padding: 2px 5px;
+   color: navy;
+   background-color: white;
+}

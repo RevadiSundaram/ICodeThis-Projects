@@ -1,0 +1,88 @@
+/* Add CSS here */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    font-size: 8px;
+    line-height: 1.5;
+    
+}
+h6{
+    margin: 0;
+    font-size: 12px;
+}
+.container{
+    display: flex;
+    width: 500px;
+    margin: 150px auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+.child-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-one{
+    padding: 25px;
+    background-color: #2196f3;
+    border-radius: 5px;
+    display: flex;
+ 
+}
+.section-one p{
+    padding-top: 5px;
+    color: #dee2e6;
+}
+.section-two{
+    padding: 25px;
+    background-color: #2196f3;
+    border-radius: 5px;
+}
+.section-three{
+    padding: 25px;
+    background-color: #2196f3;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    color: #dee2e6;
+    background-color: #42a5f5;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+img{
+    border-radius: 2px;
+    width: 200px;
+    height: 100px;
+}
+.flexing{
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+    padding-top: 10px;
+}
+.flexing p{
+    text-decoration: underline;
+    color: #dee2e6;
+}
+.icon{
+    align-self: center;
+   
+}
+p{
+    margin: 0;
+}
+.section-one .icon{
+    font-size: 15px;
+}
+.section-three h6{
+    padding-top: 10px;
+}
+.section-three p{
+    padding-top:  10px;
+    color: #dee2e6;
+}
