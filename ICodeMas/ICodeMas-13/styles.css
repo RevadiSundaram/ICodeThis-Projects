@@ -1,0 +1,110 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    background-color: #adb5bd;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-self: flex-end;
+
+}
+.container{
+    width: 300px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.header{
+    text-align: center;
+    background-color: #457b9d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+h3,p{
+    margin: 0;
+}
+h3{
+    font-size: 15px;
+}
+.header p{
+    color: #e5e5e5;
+    font-size: 9px;
+}
+.main{
+    padding: 20px;
+}
+.santa{
+    display: flex;
+    gap: 10px
+}
+.santa-chat{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    margin: 0 auto 0 0;
+    text-align: left;
+}
+
+.santa-two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.small{
+    font-size: 8px;
+    color: #adb5bd;
+}
+.user{
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.user-chat{
+    padding: 5px;
+    display: inline-block;
+    margin: 0 0 0 auto;
+    background-color: #a8dadc;
+    text-align: right;
+}
+.santa-chat p,.user-chat p {
+   display: inline-block;
+   margin: auto;
+    
+}
+.chat{
+    margin-top: 10px;
+    border-top: 1px solid #adb5bd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: none;
+}
+button i{
+    color: #457b9d;
+}
+input{
+    border: none;
+    background-color: whitesmoke;
+    width: 200px;
+}
