@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    color: #e5e5e5;
+    text-align: left;
+   
+}
+.container{
+    background-image: url("/images/iCodeMas/footer_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    width: 700px;
+  
+    margin: 20px;
+    overflow: hidden;
+}
+
+.section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 20px;
+
+   
+}
+a{
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 10px;
+}
+.section-one{
+    width: 200px;
+}
+.similar{
+    display: flex;
+    flex-direction: column;
+}
+h3,h4{
+    color: white;
+  
+    text-align: left;
+    
+}
+p{
+    font-size: 8px;
+}
+.copyright{
+    margin-top: 30px;
+    opacity: 0.5;
+}
