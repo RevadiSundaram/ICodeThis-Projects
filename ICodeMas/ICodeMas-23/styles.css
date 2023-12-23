@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe8d6;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-image: url("/images/iCodeMas/subscribe_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    text-align: center;
+    padding: 50px 40px 50px 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+p{
+    font-size: 10px;
+    margin: 0;
+    opacity: 0.8;
+}
+input,button{
+    font-size: 10px;
+    font-family: inherit;
+    margin-top: 10px;
+        border: none;
+            padding: 5px 10px;
+            border-radius: 20px;
+}
+
+h2{
+    font-size: 35px;
+    width: 300px;
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+}
+button{
+    background-color: #457b9d;
+    color: white;
+}
