@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fcd5ce;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+
+    
+}
+.section{
+   
+    padding: 40px 100px 30px 40px;
+}
+.section-one{
+    background-color: #e26d5c;
+    color: white;
+    border-top-left-radius: 10px;
+}
+.section-two{
+    background-color: #ffadad;
+    color: #495057;
+}
+.section-three{
+    background-color: #adc178;
+    color: white;
+    border-top-right-radius: 10px;
+}
+.section-four{
+   grid-row: 2;
+   background-color: #f6bd60;
+
+   color: #495057;
+   border-bottom-left-radius: 10px;
+}
+.section-five{
+    grid-column: 2 / span 3;
+    grid-row: 2;
+    background-color: #6c757d;
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+.section-five p{
+    width: 250px;
+}
+.section-five h3{
+    width: 225px;
+}
+h3{
+    font-size: 15px;
+}
+button{
+    font-size: inherit;
+    font-family: inherit;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+.section p:hover{
+    cursor: pointer;
+    background-color: #e6b8a2;
+    color: black;
+    opacity: 0.5;
+}
+.sec-con{
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+ 
+}
