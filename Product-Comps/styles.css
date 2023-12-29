@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #495057;
+    font-size: 10px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.container{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    position: relative;
+   
+}
+.section{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 2px 2px #adb5bd;
+   
+}
+.section-one{
+    width: 250px;
+    position: relative;
+   
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    right: 70px;
+ 
+}
+.prof-button{
+    display: flex;
+    gap: 10px;
+}
+.section-three{
+
+    align-self: center;
+  display: flex;
+  gap: 10px;
+ 
+  
+}
+h3{
+    font-size: 15px;
+}
+.small{
+    font-size: 9px;
+}
+.radio{
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+.radio-input{
+    align-self: center;
+}
+.radio p{
+    align-self: center;
+}
+.type{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.section-one button{
+    margin-top: 15px;
+}
+.type h4{
+    margin: 0;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+}
+.sec-one-btn{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    font-size: 13px;
+}
+.light{
+    color: #b07d62;
+    background-color: white;
+    border: 0.5px solid #adb5bd;
+}
+.dark{
+    background-color: #b07d62;
+    color: white;
+}
+.border{
+    padding: 8px;
+    border: 0.5px solid #adb5bd;
+}
