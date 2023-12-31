@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 10px;
+    background-color: #fff0f3;
+    text-align: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #d6d2d2;
+}
+.container{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.cont{
+   font-size: 8px;
+    background-color: #fff0f3;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+    width: 250px;
+}
+.small{
+    font-size: 8px;
+}
+button,input{
+    font-size: inherit;
+    font-family: inherit;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+.checkbox{
+   display: flex;
+   gap: 5px;
+}
+.text{
+    width: 200px;
+    padding: 10px 15px;
+    color: #d6d2d2;
+}
+.check{
+    width: 25px;
+}
+h3{
+    font-size: 15px;
+}
+span{
+    color: #8f2d56;
+    text-decoration: underline;
+}
+button{
+    background-color: #8f2d56;
+    border: none;
+    color: white;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 250px;
+}
