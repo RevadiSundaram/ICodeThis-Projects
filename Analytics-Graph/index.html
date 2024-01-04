@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"></script>
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Visitors per day</h2>
+        </div>
+        <div class="wrapper">
+            <div class="pie" id="chartContainer">
+                <canvas id="chartId" aria-label="chart" height="200" width="200"></canvas>
+                <div class="write">
+                <h1>38k</h1>
+                <p>Visitors Total</p>
+                </div>
+            </div>
+            <div class="percent">
+                <p><span id="lavender">41%</span>&nbsp;HTML</p>
+                <p><span id="pink">29%</span>&nbsp;CSS</p>
+                <p><span id="orange">23%</span>&nbsp;JavaScript</p>
+                <p><span id="yellow">4%</span>&nbsp;React</p>
+                <p><span id="green">3%</span>&nbsp;Angular</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
