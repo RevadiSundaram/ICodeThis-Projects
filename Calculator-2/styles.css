@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333533;
+    color: white;
+}
+.container{
+    background-color:#50514f;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+            25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+            0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+            -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+
+}
+.textbox{
+    width: 280px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    padding-right: 15px;
+}
+button{
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+    background-color: #50514f;
+    color: white;
+    cursor: pointer;
+}
+.wrapper-btn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+
+}
+.wrapper-btn > div {
+    padding: 10px;
+
+}
+.equals{
+    grid-column: 3 / span 2;
+    background-color: #d8315b;
+}
+.equals input{
+    background-color: #d8315b;
+    font-size: 20px;
+}
+input{
+        font-size: inherit;
+            font-family: inherit;
+            border: none;
+            background-color: #50514f;
+            color: white;
+            cursor: pointer;
+}
