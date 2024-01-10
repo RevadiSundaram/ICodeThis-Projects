@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #dee2e6;
+}
+.container{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 100px;
+}
+.section-one{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    text-align: center;
+    padding: 30px;
+    height: 200px;
+
+    
+}
+.section{
+    background-image: linear-gradient(to right, #f0585f, #dd2d5d);
+    box-shadow: 0 2.5rem 1rem -1rem rgba(240, 88, 95, 0.5);
+    border-radius: 10px;
+    width: 600px;
+   
+}
+p{
+    width: 350px;
+    font-size: 12px;
+    margin: 0.5rem;
+}
+h2{
+    margin: 0;
+
+}
+button{
+    font-size: 12px;
+    font-family: inherit;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+.section-one button{
+    color: black;
+    background-color: #dee2e6;
+}
+.section-two{
+    padding: 80px 0 50px 50px;
+    display: flex;
+    align-items: center;
+
+}
+.section-two button{
+    align-self: flex-start;
+    color: #dee2e6;
+    background-color: #dd2d5d;
+    border: 1px solid #dee2e6;
+}
