@@ -1,0 +1,92 @@
+body{
+    font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-size: 15px;
+        
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 900px;
+}
+.section-two{
+    background-image: linear-gradient(to right, #ba80fe, #ff6a94);
+    color: white;
+}
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #ba80fe, #ff6a94);
+    padding: 0px 12px;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 15px;
+}
+li{
+    list-style-type: none;
+    
+}
+.day{
+    border: 1px solid white;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.day h4{
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.small{
+    font-size: 12px;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.wrapper h2{
+    margin-top: 0;
+}
+input{
+    background-color: #815ac0;
+    border: none;
+    padding: 6px 10px;
+}
+::placeholder{
+    color: white;
+}
+button{
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+    opacity: 0.8;
+    padding: 5px 10px;
+}
+
+input,button{
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 2px;
+    
+}
+.opacity{
+    opacity: 0.7;
+}
