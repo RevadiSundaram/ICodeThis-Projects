@@ -1,0 +1,90 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #edf2fb;
+    font-size: 12px;
+    
+
+ }
+ .container{
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ input,button{
+    font-size: 12px;
+    font-family: inherit;
+ }
+ form{
+    display: flex;
+    gap: 5px;
+ }
+ input{
+    padding: 5px 5px 5px 30px;
+    border: 1px solid #ced4da;
+    cursor: text;
+    
+    background-color: #e2eafc;
+ }
+ .search-bar i {
+     position: absolute;
+     padding: 10px;
+     
+ }
+ ::placeholder{
+    color: black;
+ }
+ .btn-3{
+    padding: 6px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .form{
+    background-color: #edf2fb;
+    padding: 0 10px 10px 10px;
+    margin: 10px 0;
+ }
+ .btn{
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+
+ }
+ .btn-1{
+    background-color: #06d6a0;
+ }
+ .btn-2{
+    background-color: #4e598c;
+ }
+ h3{
+    font-size: 25px;
+    margin: 0;
+ }
+ p{
+    margin: 10px 0;
+ }
+ .check{
+    padding: 5px;
+    
+    border-radius: 50%;
+    background-color: #e2eafc;
+ }
+ span{
+    text-decoration: underline;
+ }
