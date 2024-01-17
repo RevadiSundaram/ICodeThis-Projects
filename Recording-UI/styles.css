@@ -1,0 +1,80 @@
+body{
+    background-color: #e2ece9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    box-shadow: #95d5b2 0px 54px 55px, #95d5b2 0px -12px 30px, #95d5b2 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, #95d5b2 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+.header{
+    align-self: flex-end;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #6c757d;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.record{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.record p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #6c757d;
+}
+.record h2{
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.function{
+    display: flex;
+    gap: 70px;
+    font-size: 25px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d8f3dc;
+    color: #6c757d;
+}
+.footer p{
+    margin: 0;
+}
+.zoom{
+    display: flex;
+    gap: 10px;
+}
+i{
+    cursor: pointer;
+}
+.green{
+    color: #40916c;
+    cursor: pointer;
+}
+.red{
+    color: #a4161a;
+    cursor: pointer;
+}
