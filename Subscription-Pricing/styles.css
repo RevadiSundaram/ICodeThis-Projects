@@ -1,0 +1,100 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ecef;
+    font-size: 12px;
+    
+}
+.container{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.para{
+    width: 180px;
+    font-size: 12px;
+    text-align: center;
+}
+h3,h5{
+    margin: 0;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section{
+    display: flex;
+    border: 3px solid #dee2e6;
+    padding: 15px 20px;
+    gap: 10px;
+    border-radius: 5px;
+    align-items: center;
+
+}
+.section:hover{
+    border: 3px solid #03045e;
+    cursor: pointer;
+}
+.section:active{
+    border: 3px solid #03045e;
+    cursor: pointer;
+}
+.section p{
+    margin: 0;
+    line-height: 2;
+}
+label{
+    font-size: 10px;
+}
+h5{
+    font-size: 12px;
+}
+.value{
+    display: inline;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    background-color: #0466c8;
+    color: white;
+}
+input{
+    height: 20px;
+    width: 20px;
+}
+button{
+    margin-top: 15px;
+    width: 200px;
+    padding: 8px 0;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn-1{
+    border: none;
+    background-color: #001233;
+    color: white;
+
+}
+.btn-2{
+    border: 1px solid #dee2e6;
+    background-color: white;
+}
+.btn-2 i{
+    color: #0466c8;
+}
+a{
+    margin-top: 20px;
+}
