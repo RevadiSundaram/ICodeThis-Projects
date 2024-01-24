@@ -1,0 +1,123 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e9ecef;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 700px;
+
+}
+.nav{
+background-color: #003049;
+color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+/* .images img{ 
+    width: 100px;
+    height: 100px;
+} */
+.img-1{
+    width: 50px;
+    height: 50px;
+}
+.img-2{
+    width: 20px;
+    height: 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-one{
+    width: 180px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+    color: #003049;
+}
+button{
+    font-size: 10px;
+    font-family: inherit;
+    background-color: white;
+    color: #003049;
+    padding: 10px 15px;
+    border: 1px solid #003049;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: #003049;
+}
+.two-part{
+    color: #6c757d;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.images{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+.img-one{
+    width: 200px;
+    height: 250px;
+}
+.img-two{
+    width: 100px;
+    height: 220px;
+}
+.last{
+    margin-top: 50px;
+}
+.hours{
+    display: flex;
+    gap: 20px;
+    background-color: #e9ecef;
+    padding: 0 10px;
+    margin-bottom: 10px;
+
+}
+h6{
+    font-size: 10px;
+    margin: 10px 0;
+}
