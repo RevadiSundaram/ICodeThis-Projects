@@ -1,0 +1,140 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 10px;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+button{
+    align-self: flex-end;
+    font-size: 12px;
+    font-family: inherit;
+    padding: 10px 40px;
+    background-color: #ffba08;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.part-1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px 10px 10px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    gap: 20px;
+}
+h3,p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h2{
+    margin-top: 0;
+}
+.yellow{
+    color: #ffba08;
+}
+.blue{
+    color: #457b9d;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.sec2-1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #adb5bd;
+    padding-bottom: 10px;
+}
+.people {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    column-gap: 10px;
+}
+.people p:hover{
+    background-color: #ffba08;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.people p{
+    padding: 5px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+.link{
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.sec2-2{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    align-self: flex-start;
+    border-radius: 5px;
+}
+.clock{
+    border-bottom: 1px solid #adb5bd;
+    padding-bottom: 10px;
+}
+.time{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+.time p {
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.time p:hover {
+    background-color: #ffba08;
+    border-radius: 20px;
+    cursor: pointer;
+}
