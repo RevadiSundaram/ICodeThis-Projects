@@ -1,0 +1,78 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 13px;
+    background-color: #cb997e;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dot{
+    margin: 0;
+    font-size: 20px;
+}
+h4{
+    margin: 0;
+    font-size: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.num{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.small{
+    margin-top: 5px;
+    font-size: 11px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+button{
+    cursor: pointer;
+    font-size: 12px;
+    font-family: inherit;
+    padding: 10px 0;
+    width: 120px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.btn-1{
+    background-color: white;
+    border: 1px solid black;
+
+}
+.btn-2{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.grey{
+    margin-top: 25px;
+    font-size: 11px;
+    color: #6c757d;
+}
