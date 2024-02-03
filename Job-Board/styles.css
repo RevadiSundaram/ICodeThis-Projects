@@ -1,0 +1,94 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dee2ff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+}
+.components{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+h5{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+button{
+    font-size: 12px;
+    font-family: inherit;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 1px solid #adb5bd;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #3d0066;
+    color: white;
+    border: 1px solid #3d0066;
+}
+i{
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #495057;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.para{
+    font-size: 10px;
+    width: 600px;
+    text-align: center;
+    color: #495057;
+    margin-top: 30px;
+}
+.violet{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.pink{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+.blue{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.green{
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+.orange{
+    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+.silver{
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), radial-gradient(at 50% 0%, rgba(255, 255, 255, 0.10) 0%, rgba(0, 0, 0, 0.50) 50%);
+    background-blend-mode: soft-light, screen;
+}
