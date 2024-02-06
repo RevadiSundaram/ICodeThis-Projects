@@ -1,0 +1,127 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1528372531841-f1228963b0af?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #564592;
+
+}
+p{
+    font-size: 13px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    padding: 50px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.section-1{
+    margin-left: 350px;
+}
+.section-2{
+    margin-right: 350px;
+}
+h2{
+
+    margin-bottom: 2px;
+}
+.section-1 p{
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+select{
+    padding: 5px;
+}
+.input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #adb5bd;
+    color: #564592;
+
+}
+.btn{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+
+    
+}
+select{
+    font-family: inherit;
+}
+.t-in{
+    padding: 0 5px;
+}
+input::placeholder{
+    color: #564592;
+    opacity: 0.7;
+}
+button{
+    font-size: 12px;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-1{
+    background-color: #564592;
+  
+    color: white;
+
+}
+.btn-2{
+    background-color: white;
+    color: #564592;
+}
+.inputt{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #adb5bd;
+    padding-left: 5px;
+}
+.p-1{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.p-2{
+    margin-top: 0;
+}
+.icon{
+    display: flex;
+    gap: 3px;
+}
+i{
+    padding: 10px;
+}
+.icon-1{
+    background-color: #01497c;
+    color: white;
+    font-size: 15px;
+}
+.icon-2{
+    background-color: #00a6fb;
+    color: white;
+}
