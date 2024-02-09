@@ -1,0 +1,78 @@
+body{
+    background-color: #023047;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 800px;
+}
+header{
+    text-align: center;
+}
+.all-sections{
+    display: flex;
+    gap: 20px;
+}
+input{
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+p{
+    font-size: 12px;
+}
+button{
+    font-size: 12px;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 5px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+a{
+    font-size: 12px;
+}
+.card{
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+h5{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.purple{
+    background-color: #eae4e9;
+}
+.pink{
+    background-color: #fde2e4;
+}
+.orange{
+    background-color: #e8e8e4;
+}
+.footer p{
+   width: 150px;
+}
