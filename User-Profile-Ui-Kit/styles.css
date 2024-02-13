@@ -1,0 +1,110 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #006d77;
+}
+.container{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.card-1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.btn-1{
+    margin-top: 15px;
+    align-self: center;
+    padding: 10px 80px;
+    background-color: #006d77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: inherit;
+}
+.flexx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.small{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #6c757d;
+}
+.big{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 0;
+}
+.flexx i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid #a8dadc;
+}
+.card-2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section-2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section-2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #a8dadc;
+}
+.card-2 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.bigg{
+    font-size: 16px;
+    font-weight: 500;
+}
+.letter{
+    margin-top: 0;
+    color: #6c757d;
+}
