@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <header>
+                <i class="fa-solid fa-rotate-left"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </header>
+            <div class="main">
+                <p class="underline">YOUR HOURS</p>
+                <i class="fa-solid fa-clock clock"></i>
+                <p>You haven't logged any hours yet</p>
+            </div>
+            <footer>
+                <i class="fa-solid fa-plus plus"></i>
+            </footer> 
+        </section>
+        <section>
+            <header>
+                <i class="fa-solid fa-rotate-left"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </header>
+            
+            <div class="main main-2">
+                <p class="underline">YOUR HOURS</p>
+                <div class="container">
+                    <p>Select hour type</p>
+                    <div class="box">
+                        <select name="hour" id="hour">
+                            <option value="overworked">Overworked hours</option>
+                        </select>
+                        <div class="flex">
+                            <input type="number" id="text">
+                            <button class="op">+</button>
+                            <button class="op">-</button>
+                        </div>
+                        <div class="submit">
+                            <button class="btn-1">Cancel</button>
+                            <button class="btn-2">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
