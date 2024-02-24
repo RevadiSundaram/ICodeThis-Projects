@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+body{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #023e8a;
+}
+main{
+    width: 700px;
+    color: white;
+    line-height: 2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+h2{
+    color: #0353a4;
+}
+p{
+    line-height: 1;
+    margin-top: 20px;
+    color: #979dac;
+}
+header{
+    background-color: #001845;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    background-color: #00296b;
+    padding: 20px;
+}
+ol{
+    padding-left: 30px;
+}
+li{
+    padding: 10px;
+}
+li:hover{
+    background-color: #0353a4;
+    cursor: pointer;
+}
