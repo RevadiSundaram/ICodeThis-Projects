@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #023e7d;
+    color: white;
+    line-height: 1.8;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 13px;
+    font-family: inherit;
+    padding: 8px 20px;
+    color: #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-1{
+    border: 1px solid #ced4da;
+    background-color: #023e7d;
+}
+.btn-2{
+    background-color: #00509d;
+    border: none;
+}
+.fl{
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+.feedback{
+    padding: 30px;
+    background-color: #002855;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emoji{
+    font-size: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.emoji:hover{
+    border: 1px solid #ced4da;
+}
+.dets{
+    font-size: 13px;
+    color: #adb5bd;
+}
+@media(max-width: 400px){
+    .card{
+        flex-direction: column;
+    }
+}
