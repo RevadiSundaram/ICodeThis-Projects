@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #2980B9;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFFFFF, #6DD5FA);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+main{
+    background-color: white;
+    padding: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+section i{
+    font-size: 50px;
+}
+.images{
+    display: flex;
+    gap: 15px;
+    padding: 0 20px;
+}
+.images img{
+    width: 100px;
+    height: 100px;
+}
+i{
+    cursor: pointer;
+}
+
+@media(max-width: 400px){
+    .images{
+        flex-direction: column;
+    }
+}
