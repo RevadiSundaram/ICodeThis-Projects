@@ -6,36 +6,61 @@ const imgArray = [
     "https://images.unsplash.com/photo-1710424550415-28ed2b411c2c?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1710095800123-32fa1d53489d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ]
-let activePhotos = [];
-let currentItem = 0;
+// let activePhotos = [];
+let startItem = 0;
 let imgCar = document.getElementById("images");
 let leftButton = document.getElementById("leftBtn");
 let rightButton = document.getElementById("rightBtn");
 
 window.addEventListener('DOMContentLoaded', function () {
-    for (let i = currentItem; i < 4; i++) {
-        activePhotos.push(imgArray[i]);
-        imgCar.innerHTML += `<img src="${activePhotos[i]}">`;
+    for (let i = 0; i < 4; i++) {
+        // activePhotos.push(imgArray[i]);
+        imgCar.innerHTML += `<img src="${imgArray[i]}">`;
     }
 
 });
 
 leftButton.addEventListener("click", function () {
-    activePhotos.pop();
+    // activePhotos.pop();
 
     // if (currentItem < 0) {
     //     currentItem = imgArray.length - 1;
     // }
-    showImages(currentItem);
+    if(startItem == 0){
+        startItem = 5;
+    }
+    else{
+        startItem--;
+    }
+    
+    let temp = startItem;
+    let activePhotos = [];
+    
+    for(let i=0; i<4; i++){
+        let val = temp % imgArray.length;
+        activePhotos.push(imgArray[val]);
+        temp++;
+    }
+    
+    showImages(activePhotos);
+
 });
 
 rightButton.addEventListener("click", function () {
   
     // console.log(currentItem);
-    currentItem = activePhotos.length;
-    activePhotos.shift();
-    activePhotos.push(imgArray[currentItem++]);
+    // currentItem = imgArray.length
+    // activePhotos.shift();
+    // activePhotos.push(imgArray[currentItem++]);
     // console.log(activePhotos);
+    startItem++;
+    let temp = startItem;
+    let activePhotos = [];
+    for(let i=0; i<4; i++){
+        let val = temp % imgArray.length;
+        activePhotos.push(imgArray[val]);
+        temp++;
+    }
     showImages(activePhotos);
 });
 
