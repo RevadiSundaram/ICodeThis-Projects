@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    gap: 20px;
+}
+.full-percent{
+    width: 100%;
+    background-color: #e9ecef;
+    
+    border-radius: 5px;
+
+}
+.each-percent{
+    width: 72%;
+}
+.black{
+    background-color: black;
+    height: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.blue{
+    background-color: #0466c8;
+        height: 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+}
+.blackk{
+    background-color: black;
+        height: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+}
+.flex{
+    display: flex;
+    gap: 350px;
+    font-size: 13px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.line{
+    width: 100px;
+    border: 1px solid #0466c8;
+}
+.tick{
+    padding: 5px;
+    background-color: #0466c8;
+    border-radius: 50%;
+    color: white;
+}
+.other{
+    font-size: 25px;
+    color: #e9ecef;
+}
+.dot{
+    color: #0466c8;
+}
+.lastt{
+    border-color: #e9ecef;
+}
