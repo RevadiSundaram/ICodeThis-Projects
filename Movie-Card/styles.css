@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #edf6f9;
+    line-height: 1.5;
+}
+p{
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    width: 700px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 250px;
+    width: 150px;
+}
+.main{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 20px 50px 20px 0;
+    
+}
+.bottom{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+h5{
+    font-size: 16px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+button{
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    
+}
+.btn-1{
+    border: 2px solid black;
+    background-color: white;
+}
+.btn-2{
+    padding: 5px 20px;
+    background-color: black;
+        color: white;
+}
+.each p,.blue{
+    color: #0582ca;
+}
+.more{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+    text-decoration: underline;
+    color: #0582ca;
+}
