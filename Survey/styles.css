@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: #f0f3bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    line-height: 1.7;
+}
+main{
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+}
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px 0;
+}
+.each-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.small{
+    font-size: 12px;
+    width: 350px;
+}
+.check{
+    height: 18px;
+    width: 18px;
+}
+textarea{
+    width: 400px;
+    margin: 7px 0;
+    padding: 2px;
+    font-family: inherit;
+    color: #adb5bd;
+    border: 1px solid #adb5bd;
+    resize: none;
+    height: 50px;
+}
+button{
+    font-family: inherit;
+    font-size: 13px;
+    padding: 7px 20px;
+    border-radius: 3px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+.btn-2{
+    background-color: #f0f3bd;
+}
