@@ -1,0 +1,78 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: #f8edeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container{
+    background-color: white;
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tooltip{
+    display: none;
+}
+.card{
+    align-self: flex-start;
+    cursor: pointer;
+    position: relative;
+}
+h4{
+    text-align: center;
+    color: #6c757d;
+}
+
+.container p{
+    font-size: 20px;
+    padding: 5px 11px;
+    border-radius: 50%;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+    background-color: #f8f9fa;
+
+}
+.card:hover .tooltip{
+    display: flex;
+}
+.tooltip{
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    margin:  0 auto;
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.tooltip p{
+    font-size: 14px;
+}
+button{
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 2px;
+}
+.btn-1{
+    background-color: green;
+
+}
