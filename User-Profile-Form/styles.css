@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 700px;
+    padding: 0 20px;
+    gap: 50px;
+    background-color: #f2e9e4;
+}
+img{
+    width: 300px;
+    height: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.det{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.box{
+    width: 120px;
+    height: 30px;
+    padding: 7px;
+    
+    border: none;
+}
+.boxx{
+    width: 70px;
+    height: 30px;
+    padding: 7px;
+    border: none;
+}
+::placeholder{
+    font-family: "Rajdhani", sans-serif;
+}
+.btns{
+    align-self: center;
+    margin: 20px 0;
+}
+.dot{
+    align-self: center;
+}
+h3{
+    margin-top: 20px;
+    text-align: center;
+    color: #6b705c;
+    font-size: 18px;
+}
+label{
+    color: #6b705c;
+    font-weight: 500;
+}
+button{
+    font-family: inherit;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-1{
+    padding: 10px 30px;
+    background-color: #48cae4;
+    border-radius: 5px;
+}
+.btn-2{
+    background-color: #f2e9e4;
+}
+@media (max-width: 600px){
+    main{
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+}
