@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #caf0f8;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #495057;
+    width: 300px;
+}
+.close{
+    align-self: flex-end;
+}
+button{
+    font-family: inherit;
+    padding: 10px 0;
+    border: none;
+    background-color: #0466c8;
+    color: white;
+    border-radius: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.det{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+.blue{
+    margin-left: auto;
+    color: #0466c8;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
