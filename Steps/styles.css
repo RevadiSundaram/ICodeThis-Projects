@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e9ecef;
+}
+main{
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.num{
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    align-self: center;
+} 
+.line{
+    width: 150px;
+    height: 0;
+    border: 3px solid black;
+}
+.det{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 5px;
+    margin-top: 20px;
+
+}
+.word{
+    align-self: stretch;
+    font-size: 12px;
+}
+.third{
+    border: 3px solid #e9ecef;
+}
+.third-3{
+    color: #6c757d;
+}
+.other{
+    padding: 5px 10px;
+        background-color: #e9ecef;
+        border-radius: 50%;
+        color: #6c757d;
+        align-self: center;
+}
+.circle{
+    font-size: 13px;
+}
