@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #dee2e6;
+}
+main{
+    background: linear-gradient(to top, #eecda3, #ef629f);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 800px;
+    transform: rotate(-15deg);
+
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+section{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 30px;
+}
+.sec-1{
+    width: 250px;
+    text-align: center;
+    line-height: 1.5;
+    margin-right: 100px;
+}
+button{
+    font-family: inherit;
+    cursor: pointer;
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    border: none;
+    padding: 10px 60px;
+    color: white;
+    font-size: inherit;
+    border-radius: 20px;
+}
+.grey{
+    color: #6c757d;
+}
+.btn-1{
+    margin: 20px 0;
+
+}
+.bold{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.sec-2{
+    width: 350px;
+    align-self: center;
+}
+.all-star{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    gap: 15px;
+}
+.star{
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+.progress-bar{
+    height: 10px;
+    width: 60%;
+    background-color: #e9ecef;
+    border-radius: 20px;
+}
+.progress{
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    border-radius: 20px;
+    height: 10px; 
+}
+.pro-1{
+    width: 40%;
+}
+.pro-2{
+    width: 0;
+}
+.pro-3{
+    width: 27%;
+}
+.blue{
+    color: #3a7bd5;
+}
+i{
+    cursor: pointer;
+}
+.sec-3 {
+    width: 600px;
+    display: flex;
+    gap: 50px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+.image i{
+    font-size: 50px;
+}
+.image{
+    background-color: #e9ecef;
+    align-self: flex-start;
+    padding: 30px;
+    border-radius: 5px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.small{
+    margin: 10px 0;
+}
+span{
+    color: #3a7bd5;
+}
+.head i{
+    font-size: 20px;
+}
+.para{
+    margin: 20px 0;
+}
+.btn-3{
+    margin-bottom: 30px;
+}
