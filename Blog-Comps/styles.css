@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #343a40;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+main{
+    display: flex;
+    gap: 50px;
+}
+.sec-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+    align-self: flex-end;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.grey{
+    font-size: 12px;
+    color: #495057;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.play{
+    background-color: #ee6c4d;
+    padding: 10px 13px;
+    border-radius: 50%;
+    color: white;
+}
+.playy{
+    color: #ee6c4d;
+    padding: 10px 13px;
+    border-radius: 50%;
+    border: 1px solid #e9ecef;
+}
+.con-3{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.con-3 h2{
+    margin: 40px 0;
+}
+.line{
+    width: 20px;
+    border: 1px solid #343a40;
+    margin-top: 5px;
+}
+span{
+    text-decoration: underline;
+}
+.sec-2{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+}
+.con-4{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.progress-bar{
+    height: 7px;
+    width: 80px;
+    background-color: #e9ecef;
+    border-radius: 20px;
+}
+.progress{
+    height: 5px;
+        width: 40px;
+        background-color: #ee6c4d;
+        border-radius: 20px;
+}
+.con-5{
+    background-color: #ee6c4d;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.con-5 .header{
+    margin-top: 50px;
+}
+.small{
+    font-size: 12px;
+}
