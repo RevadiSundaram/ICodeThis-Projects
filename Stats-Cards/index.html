@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Remove the line below if you don't want to use TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://cdn.plot.ly/plotly-2.34.0.min.js'></script>
+</head>
+
+<!-- Change code below this line -->
+<body class="bg-[#e9ecef] flex justify-center items-center min-h-screen">
+    <main class="flex gap-10 flex-col items-center justify-center">
+        <div class="flex gap-10">
+            <div class="bg-white h-[300px] rounded-lg w-[400px]" id="chart">
+
+            </div>
+            <div class="flex self-center items-center justify-center gap-10 text-center bg-white p-10 rounded-lg">
+                <div>
+                    <p class="font-bold text-xl">0</p>
+                    <p>Tweets</p>
+                </div>
+                <p class="border border-gray-300 h-[80px]"></p>
+                <div>
+                    <p class="font-bold text-xl">98</p>
+                    <p>Clicks</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="bg-white p-10 rounded-lg w-[350px]">
+            <h2 class="font-bold">Overview</h2>
+            <div>
+                <div class="flex justify-between mt-4">
+                    <p>Deliveries</p>
+                    <p><i class="fa-solid fa-arrow-up text-green-600"></i> &nbsp; 99.7%</p>
+                </div>
+                <p class="border border-gray-300 mt-2"></p>
+                <div class="flex justify-between mt-4">
+                        <p>Total opens</p>
+                        857
+                </div>
+                <p class="border border-gray-300 mt-2"></p>
+                <div class="flex justify-between mt-4">
+                    <p>Forwarded</p>
+                    <p><i class="fa-solid fa-arrow-down text-red-600"></i> &nbsp; 71%</p>
+                </div>
+            </div>
+
+        </div>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+<!-- Change code above this line -->
+
+</html>
