@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(175deg, rgb(227, 106, 125) 35%, rgb(247, 247, 247) 35%);
+}
+.round{
+    border-radius: 50%;
+}
+.song{
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+.song:hover{
+    transform: scale(1.05);
+}
