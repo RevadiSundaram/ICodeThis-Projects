@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Remove the line below if you don't want to use TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<!-- Change code below this line -->
+<body class="bg-[#e5e5e5] flex justify-center items-center min-h-screen">
+    <div class="bg-white text-[#181028]  shadow-lg  w-1/2 max-w-xl flex flex-col items-center">
+        <div class="flex items-center justify-between self-stretch">
+            <h3 class="text-xl px-6 ">Repositories</h3>
+            <i id="enterEl" class="fa-solid fa-plus bg-[#2541b2] px-3 py-3  text-lg text-white"></i>
+        </div>
+        <div class="py-5 px-10 self-stretch">
+            <input id="findEl" type="text" placeholder="Find a repository" class=" w-full p-2 border-gray-400 border rounded-sm" />
+        </div>
+        
+        <div id="displayEl" class="h-[150px] self-start px-10 flex flex-col gap-2">
+        </div>
+        <div class="px-5 py-2 self-stretch">
+            <input id="inputEl" type="text" placeholder="Enter a repository" class="w-full  p-2 border-gray-400 border rounded-sm" />
+        </div>
+        <button id="createEl" class="bg-[#2541b2] py-8 self-stretch text-white">Create an organization</button>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+<!-- Change code above this line -->
+
+</html>
